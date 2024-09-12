@@ -7,7 +7,7 @@ describe("About Operators (about_operators.js)", function() {
       result = result + i;
     }
     // What is the value of result?
-    expect(FILL_ME_IN).toBe(result);
+    expect(15).toBe(result);
   });
 
   it("assignment addition", function() {
@@ -17,7 +17,7 @@ describe("About Operators (about_operators.js)", function() {
       result += i;
     }
     // What is the value of result?
-    expect(FILL_ME_IN).toBe(result);
+    expect(15).toBe(result);
   });
 
   it("subtraction", function() {
@@ -26,7 +26,7 @@ describe("About Operators (about_operators.js)", function() {
       result = result - i;
     }
     // What is the value of result?
-    expect(FILL_ME_IN).toBe(result);
+    expect(2).toBe(result);
   });
 
   it("assignment subtraction", function() {
@@ -35,7 +35,7 @@ describe("About Operators (about_operators.js)", function() {
       result -= i;
     }
     // What is the value of result?
-    expect(FILL_ME_IN).toBe(result);
+    expect(2).toBe(result);
   });
 
   //Assignment operators are available for multiplication and division as well
