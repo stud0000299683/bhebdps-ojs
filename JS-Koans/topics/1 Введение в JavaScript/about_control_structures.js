@@ -32,7 +32,7 @@ describe("About Control Structures (about_control_structures.js)", function(){
     }
 
     // what is the value of result?
-    expect(nameage).toBe(result);
+    expect("nameage").toBe(result);
   });
 
   it("ternary operator", function() {
