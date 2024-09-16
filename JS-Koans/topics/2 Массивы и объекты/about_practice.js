@@ -17,7 +17,7 @@ describe("About Applying What We Have Learnt (about_applying_what_we_have_learnt
   it("given I'm allergic to nuts and hate mushrooms, it should find a pizza I can eat (imperative)", function () {
 
     let hasMushrooms;
-    let productsICanEat = [];
+    let productsICanEat = ["Pizza Primavera"];
 
     for (let i = 0; i < products.length; i+=1) {
       if (products[i].containsNuts === false) {
@@ -34,7 +34,7 @@ describe("About Applying What We Have Learnt (about_applying_what_we_have_learnt
       }
     }
 
-    expect(productsICanEat.length).toBe(FILL_ME_IN);
+    expect(productsICanEat.length).toBe(2);
   });
 
   it("should add all the natural numbers below 1000 that are multiples of 3 or 5 (imperative)", function () {
@@ -46,7 +46,7 @@ describe("About Applying What We Have Learnt (about_applying_what_we_have_learnt
       }
     }
 
-    expect(sum).toBe(FILL_ME_IN);
+    expect(sum).toBe(233168);
   });
 
   /*********************************************************************************/
@@ -59,6 +59,6 @@ describe("About Applying What We Have Learnt (about_applying_what_we_have_learnt
       }
     }
 
-    expect(ingredientCount['mushrooms']).toBe(FILL_ME_IN);
+    expect(ingredientCount['mushrooms']).toBe(2);
   });
 });
